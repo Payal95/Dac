@@ -1,0 +1,112 @@
+* initialising a empty repo
+  > git init
+
+* list the changes with all details 
+  > git status
+
+* list the changes with minimal changes
+  > git status -s
+
+* move the changes to staging area
+  > git add <file name(s)>
+
+* commit the changes to repository
+  > git commit -m <comment>
+
+* get the logs [history]
+  > git log
+
+* get the logs with one line history  
+  > git log —-oneline
+
+* get the logs with decoration
+  > git log —-decorate
+
+* get all the logs with decoration
+  > git log —-all
+
+* get the logs with graph (used for branching)
+  > git log —-graph
+
+* get the logs with custom format
+  > git log —-pretty=format:’<format specifier(s)>’
+
+  - format specifiers
+    - %s: subject [commit comment]
+    - %an: author name
+    - %ar: author commit time relative to the current time
+    - %ae: author email
+
+* get the logs with filtering enabled
+  > git log —-since=<duration>
+  
+  - duration
+    - minute(s)
+    - hour(s)
+    - week(s)
+    - month(s)
+    - year(s)
+
+  - example
+    - git log —since=10.minutes
+    - git log —since=1.month
+
+* list the branches
+  > git branch
+
+  - * means the current branch
+
+* create a new branch
+  > git branch <branch name>
+
+* switch to a branch
+  > git checkout <branch name>
+
+* create and switch to a branch
+  > git checkout -b <branch name>
+
+* delete a branch
+  > git branch -d <branch name>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
